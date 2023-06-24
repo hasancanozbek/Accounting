@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\Services\" />
+    <Folder Include="Abstractions\Repositories\" />
+    <Folder Include="CrossCuttingConcerns\Authorization\" />
+    <Folder Include="CrossCuttingConcerns\Caching\" />
+    <Folder Include="CrossCuttingConcerns\ExceptionHandling\" />
+    <Folder Include="CrossCuttingConcerns\Logging\" />
+    <Folder Include="CrossCuttingConcerns\Monitoring\" />
+    <Folder Include="CrossCuttingConcerns\Transaction\" />
+    <Folder Include="CrossCuttingConcerns\Security\" />
+    <Folder Include="CrossCuttingConcerns\Validation\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Utilities\Extensions\" />
+    <Folder Include="Utilities\Helpers\" />
+    <Folder Include="Utilities\Interceptors\" />
+    <Folder Include="Utilities\Results\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>
