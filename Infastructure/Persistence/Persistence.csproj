@@ -15,20 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\Attribute\" />
-    <Folder Include="Repositories\AttributeOption\" />
-    <Folder Include="Repositories\Customer\" />
-    <Folder Include="Repositories\Address\" />
-    <Folder Include="Repositories\Other\" />
-    <Folder Include="Repositories\Store\" />
-    <Folder Include="Repositories\VariantAttribute\" />
-    <Folder Include="Repositories\SaleDetail\" />
-    <Folder Include="Repositories\SaleMain\" />
-    <Folder Include="Repositories\Variant\" />
-    <Folder Include="Repositories\Product\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Core\Application\Application.csproj" />
   </ItemGroup>
 
