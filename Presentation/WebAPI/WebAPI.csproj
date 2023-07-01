@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Application\Application.csproj" />
     <ProjectReference Include="..\..\Infastructure\Infastructure\Infastructure.csproj" />
     <ProjectReference Include="..\..\Infastructure\Persistence\Persistence.csproj" />
   </ItemGroup>
